@@ -1,0 +1,178 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    /*  */
+}
+#belka-gorna {
+    box-shadow:  0 10px 10px -5px rgba(0,0,0,0.1);
+    align-items: center;
+    height: 60px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#logo {
+    float: left;
+    width: 10%;
+}
+
+#logo img {
+    width: 90px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+#navbar {
+    float: left;
+    margin: 0;
+    width: 70%;
+    height: 60px;
+    position: sticky;
+    background-color: white;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: space-evenly; /* rozdzielenie elementów listy równomiernie */
+    list-style: none; /* aby nie było kropek jako listy*/
+    margin: 20px
+}
+
+#navbar ul li {
+    padding-right: 5px;
+}
+
+#navbar ul li a {
+    margin-left: 3px;
+    color: black;
+    opacity: 0.7; /* przezroczysto ść */
+    font-size: 1rem;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    text-decoration: none; /* aby nie było podkreślnika */
+}
+
+#navbar ul li a:hover { /* efekt najechania na element */
+    color: lightblue;
+    opacity: 1; /* przezroczystość */
+    text-decoration: underline;
+    transition: all 0.15s; /* moment kiedy będzie zmiana tego linku */
+}
+
+#login-section {
+    float: right;
+    margin: 10px 10px 10px auto;
+}
+
+.login {
+    float: left;
+}
+.login-box {
+    margin: 10px 10px 10px auto;
+}
+
+.login-box label {
+    /* width: 10px; */
+    float: left;
+    text-align: right;
+}
+.login-box input {
+    /* width: 10px; */
+    float: right;
+}
+/* ---------------------------------------------------------------------------------------------------------- */
+
+#intro-section {
+    height: 100px;
+    background-image: url("https://cdn.pixabay.com/photo/2018/09/18/11/19/artificial-intelligence-3685928_960_720.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#welcome-section {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.message {
+    display: flex;
+    margin: 20px;
+    width: 500px;
+    height: 400px;
+    justify-content: center; /* wyśrodkowanie wertykalne */
+    align-items: center; /* wyśrodkowanie hortyzontalne */
+    font-size: 2rem;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.message img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#about-section {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+#img-section {
+    height: 200px;
+    width: 80%;
+    background-image: url("https://cdn.pixabay.com/photo/2021/04/03/12/25/tree-6147402_960_720.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0px auto 0px auto;
+}
+
+#contact-section {
+    height: 200px;
+    width: 80%;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    font-family:  "Poppins", Arial, Helvetica, sans-serif;
+}
+#page-footer {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px auto 0px auto;
+}
+
+#page-footer ul {
+    float: left;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    margin: 0px auto 0px auto;
+}
+
+#page-footer ul li {
+    display: inline-block;
+    padding-right: 20px;
+    margin: 0px auto 0px auto;
+    padding: 10px 30px;
+}
+
+#page-footer ul li a {
+    font-size: 1.4rem;
+    color: white;
+
+}
+
+#page-footer ul li a:hover {
+    color: #FFD77F;
+}
